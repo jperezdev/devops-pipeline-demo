@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("devops-pipeline-demo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53e0870765b9b2a61348a3a792585b5aabd42b50")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70e50b863ae25dabb224f1798e6641f3d55065fc")]
 [assembly: System.Reflection.AssemblyProductAttribute("devops-pipeline-demo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("devops-pipeline-demo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
