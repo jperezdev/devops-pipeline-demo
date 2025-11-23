@@ -1,0 +1,22 @@
+# Este flujo garantiza que se han aplicado las Etiquetas definidas para el Govierno del Release management
+# Permite identificar claramente y habilitar reportes basados en los commits con estadisticas de equipo
+#
+# To use this workflow, you will need to set up a .github/labeler.yml
+# file with configuration.  For more information, see:
+# https://github.com/actions/labeler
+
+name: Labeler
+on: [pull_request_target]
+
+jobs:
+  label:
+
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+
+    steps:
+    - uses: actions/labeler@v4
+      with:
+        repo-token: "${{ secrets.GITHUB_TOKEN }}"
